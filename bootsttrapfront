@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: aqua;
+   
+}
+</style>
+</head>
+<body background="C:\Users\DELL\Desktop\study.jpg">
+
+<nav class="navbar navbar-expand bg-dark">
+<div class="navbar-header">
+               
+   <a class="navbar-brand" href="front.html">COGNIZANT<i class="fa fa-sign-language"></i></a>
+ </div>
+
+  <ul class="nav navbar-nav navbar-right">
+    <li class="nav-item">
+      <a class="nav-link" href="home.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="register.html">REGISTER</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="image.html">GALLERY</a>
+    </li>
+  </ul>
+
+</nav>
+
+
+
+<h1 style="color:pink;text-align:center">WELCOME TO COGNIZANT...!!!</h1>
+<h3 style="color:aqua;text-align:center">PROGRAMMER ANALYST TRAINEE.....</h3>
+
+
+
+<div class="container" style="text-align:center">
+ 
+  <div class="card" style="width:200px;text-align:center;margin:auto">
+    <img class="card-img-top" src="C:\Users\DELL\Desktop\cogni.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">PAT</h4>
+      <p class="card-text">Welcome...!!!</p>
+      <a href="https://www.cognizant.com/" class="btn btn-primary">See Profile</a>
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+<div class="footer">
+<p>@COGNIZANT<p>
+
+  <p>Email:Cognizant@cognizant.com</p>
+</div>
+
+
+</html>
