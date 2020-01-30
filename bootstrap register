@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+.container{margin-top:20px;
+
+ background-color:#D2B4DE ;
+margin-right:40px;
+padding-top:10px;
+padding-bottom:40px;
+
+
+}
+.c-fluid{
+margin-top:20px;
+margin-right:40px;
+margin-left:22px;
+background-color:#A9CCE3  ;
+padding-top:10px;
+padding-bottom:20px;
+padding-left:10px;
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: aqua;
+   
+}
+
+</style>
+
+<body>
+
+
+
+<nav class="navbar navbar-expand bg-dark">
+<div class="navbar-header">
+               
+   <a class="navbar-brand" href="front.html">COGNIZANT<i class="fa fa-sign-language"></i></a>
+ </div>
+
+  <ul class="nav navbar-nav navbar-right">
+    <li class="nav-item">
+      <a class="nav-link" href="home.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="register.html">REGISTER</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="image.html">GALLERY</a>
+    </li>
+  </ul>
+
+</nav>
+
+
+
+
+
+
+
+
+
+<div>
+<h2 class="c-fluid">Registration Page</h2>
+</div>
+<div class="c-fluid container" style="margin-right:10px";>
+<div class="jumbotron">
+ 
+   <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name1">
+    </div>
+    <div class="form-group">
+      <label for="contact">Mobile Number:</label>
+      <input type="contact" class="form-control" id="contact" placeholder="Enter Mobile No." name="contacts">
+    </div>
+
+<div class="form-group">
+      <label for="email">Email Id:</label>
+      <input type="email" class="form-control" id="email" placeholder="Email Id." name="emails">
+    </div>
+
+<div class="form-group">
+      <label for="password">Enter Password:</label>
+      <input type="password" class="form-control" id="pass" placeholder="Password." name="pass">
+    </div>
+
+<div class="form-group">
+      <label for="password">ReEnter Password:</label>
+      <input type="password" class="form-control" id="pass" placeholder="Password." name="pass">
+    </div>
+
+
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+  </form>
+</div>
+</div>
+<div class="footer">
+<p>@COGNIZANT<p>
+
+  <p>Email:Cognizant@cognizant.com</p>
+</div>
+
+
+</body>
+</html>
