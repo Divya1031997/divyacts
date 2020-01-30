@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: aqua;
+   
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand bg-dark">
+<div class="navbar-header">
+               
+   <a class="navbar-brand" href="front.html">COGNIZANT<i class="fa fa-sign-language"></i></a>
+ </div>
+
+  <ul class="nav navbar-nav navbar-right">
+    <li class="nav-item">
+      <a class="nav-link" href="home.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="register.html">REGISTER</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="image.html">GALLERY</a>
+    </li>
+  </ul>
+
+</nav>
+
+
+<div class="c-fluid container" style="margin-right:10px";>
+<div class="jumbotron">
+
+<form action="#" method="post">
+  <div class="imgcontainer">
+    <img src="C:\Users\DELL\Desktop\cogni.jpg"  alt="Avatar" class="avatar" style="height:200px;width:200px;margin-left:360px">
+  </div>
+
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name1">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" class="form-control" id="password" placeholder="password." name="password">
+    </div>
+
+
+
+
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+ <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+ 
+  </div>
+</form>
+
+
+
+</div>
+</div>
+
+
+<div class="footer">
+<p>@COGNIZANT<p>
+
+  <p>Email:Cognizant@cognizant.com</p>
+</div>
+
+ 
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
